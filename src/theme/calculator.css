@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "coco";
+    src: url('./fonts/Coco-Gothic-Bold-trial.woff');
+}
+
+@font-face {
+    font-family: "sfb";
+    src: url('./fonts/SFProText-Bold.woff');
+}
+
+@font-face {
+    font-family: "sfr";
+    src: url('./fonts/SFProText-Regular.woff');
+}
+
+.calculator {
+    background-color: #141E1F;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.c-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.c-b-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.c-btn {
+    border-radius: 50px;
+    background-color: #121616;
+    color: #A6ABAC;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'sfb';
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+
+.c-btn-equal {
+    border-radius: 50px;
+    background-color: #BE382C;
+    color: white;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'sfb';
+    font-size: 22px;
+    outline: none;
+    border: none;
+}
+
+.c-btn-ops {
+    border-radius: 50px;
+    background-color: #1A2223;
+    color: #A6ABAC;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'sfb';
+    font-size: 22px;
+    outline: none;
+    border: none;
+}
+
+.c-delete {
+    fill: #A6ABAC;
+    height: 22px;
+}
+
+.cross {
+    transform: rotate(45deg);
+}
+
+.c-calc {
+    text-align: end;
+    color: #A6ABAC;
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-family: 'sfr';
+}
+
+.c-result {
+    text-align: end;
+    color: #A6ABAC;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'sfb';
+}
+
+.c-agent-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.c-agent-overlay {
+    -webkit-backdrop-filter: blur( 2.0px ); 
+    backdrop-filter: blur( 10.0px );
+    /* background-color: #141E1F; */
+}
+
+.i-wrapper {
+    margin: 10px;
+}
+
+.p-input {
+    border-radius: 4px;
+    background-color: #1A2223;
+    padding: 14px;
+    width: 100%;
+    color: #A6ABAC;
+    outline: none;
+    border: none;
+    font-family: 'sfr';
+}
+
+.go {
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    color: white;
+    font-family: 'sfb';
+    margin-top: 20px;
+    background-color: #BE382C;
+}
+
+.no {
+    color: #BE382C;
+    font-family: 'sfr';
+    margin-top: 30px;
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "coco";
+    src: url('./fonts/Coco-Gothic-Bold-trial.woff');
+}
+
+@font-face {
+    font-family: "sfb";
+    src: url('./fonts/SFProText-Bold.woff');
+}
+
+@font-face {
+    font-family: "sfr";
+    src: url('./fonts/SFProText-Regular.woff');
+}
+
+@font-face {
+    font-family: "sfm";
+    src: url('./fonts/SFMonoRegular.woff');
+}
+
+.agent {
+    background-color: #141E1F;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.a-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.a-img {
+    height: 390px;
+    width: auto;
+}
+
+.a-welcome {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A2223;
+    left: 20px;
+    right: 20px;
+    font-family: 'sfb';
+    width: fit-content;
+    padding: 10px 25px 10px 25px;
+    color: #707272;
+    font-size: 16px;
+}
+
+.a-w-wr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    top: 40px; */
+}
+
+.a-bottom {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 20px;
+}
+
+.proceed {
+    background-color: #121616;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #A6ABAC;
+    padding: 20px;
+    font-family: 'sfb';
+}
+
+.a-name {
+    margin-bottom: 30px;
+    color: #BE382C;
+    font-family: 'sfm';
+    font-size: 28px;
+    text-align: center;
+}
