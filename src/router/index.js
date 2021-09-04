@@ -12,6 +12,12 @@ const routes = [
     name: 'agent',
     component: () => import('@/views/agent.vue')
   },
+
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: () => import('@/views/dashboard.vue')
+  },
 ]
 
 const router = createRouter({

@@ -130,8 +130,7 @@ export default {
         },
 
         async checkCode(){
-            if(this.code == '33*&rts'){
-                alert('Good')
+            if(this.code == 'alfa'){
                 this.$router.push({ name: 'agent' })
             } else {
                 await gsap.to(".c-agent-overlay", {
